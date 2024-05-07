@@ -36,17 +36,15 @@ python bibtex_manager.py
 
 This command will process the specified BibTeX file, fetch missing DOIs, and save the updated entries to the output file.
 
-### Script Configuration
+## Script Configuration
 
-Modify the `BibTeXManager` class instantiation in the script to point to your specific `.bib` files:
+Before running the script, you will need to set up the configuration by specifying the paths for your input and output files. Follow the steps below to configure the script:
 
-```python
-if __name__ == "__main__":
-    manager = BibTeXManager('path_to_your_old_bib_file.bib', 'path_to_output_updated_bib_file.bib')
-    manager.update_bibtex_doi()
-```
+1. **Input Path**: When prompted, enter the absolute path of your old `.bib` file. This is the file that you want to update.
 
-Replace `path_to_your_old_bib_file.bib` and `path_to_output_updated_bib_file.bib` with your file paths.
+2. **Output Path**: Enter the absolute path for the output `.bib` file where the updated version will be saved.
+
+After entering these paths, the script will initialize a `BibTeXManager` with these paths and proceed to update the `.bib` file by fetching and updating DOI (Digital Object Identifier) information where applicable.
 
 ## Contributing
 
