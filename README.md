@@ -40,9 +40,9 @@ This command will process the specified BibTeX file, fetch missing DOIs, and sav
 
 Before running the script, you will need to set up the configuration by specifying the paths for your input and output files. Follow the steps below to configure the script:
 
-1. **Input Path**: When prompted, enter the absolute path of your old `.bib` file. This is the file that you want to update.
+1. **Input Path**: When prompted, enter **the absolute path** of your old `.bib` file. This is the file that you want to update.
 
-2. **Output Path**: Enter the absolute path for the output `.bib` file where the updated version will be saved.
+2. **Output Path**: Enter **the absolute path** for the output `.bib` file where the updated version will be saved.
 
 After entering these paths, the script will initialize a `BibTeXManager` with these paths and proceed to update the `.bib` file by fetching and updating DOI (Digital Object Identifier) information where applicable.
 
