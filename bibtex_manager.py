@@ -93,6 +93,7 @@ class BibTeXManager:
 
 # Test
 if __name__ == "__main__":
-    manager = BibTeXManager('path_to_your_old_bib_file.bib', 
-                            'path_to_output_updated_bib_file.bib')
+    input_path = input("Please enter the absolute path of your old .bib file: ")
+    output_path = input("Please enter the absolute path for the output updated .bib file: ")
+    manager = BibTeXManager(input_path, output_path)
     manager.update_bibtex_doi()
