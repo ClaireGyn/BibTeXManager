@@ -26,9 +26,9 @@ cd BibTeXManager
 
 ## Usage
 
-To use the `BibTeXManager`, you need to have a `.bib` file ready with entries that potentially lack DOIs. You then run the script by specifying the path to your BibTeX file and the output file name.
+Run the script by executing the following command in your terminal. You will be prompted to enter the absolute paths for your input and output
 
-### Example Command
+ `.bib` files:
 
 ```bash
 python bibtex_manager.py
@@ -65,3 +65,6 @@ Please fork the repository and submit pull requests for your proposed changes.
 ## Contact
 
 For questions or support, please contact [yaonangu@u.nus.edu](mailto:your-email@example.com).
+```
+
+This updated README provides clear instructions on how to use the script, emphasizing the need to input absolute paths for the `.bib` files. This should help users understand how to properly set up and use the utility.
