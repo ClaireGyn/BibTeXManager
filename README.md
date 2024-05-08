@@ -64,5 +64,3 @@ Please fork the repository and submit pull requests for your proposed changes.
 
 For questions or support, please contact [yaonangu@u.nus.edu](mailto:your-email@example.com).
 ```
-
-This updated README provides clear instructions on how to use the script, emphasizing the need to input absolute paths for the `.bib` files. This should help users understand how to properly set up and use the utility.
