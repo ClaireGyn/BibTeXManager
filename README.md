@@ -58,7 +58,7 @@ Please fork the repository and submit pull requests for your proposed changes.
 
 ## License
 
-`BibTeXManager` is released under the MIT License. See the `LICENSE` file for more details.
+`BibTeXManager` is released under the MIT License.
 
 ## Contact
 
