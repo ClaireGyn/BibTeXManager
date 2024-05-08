@@ -12,7 +12,7 @@
 Before you start using `BibTeXManager`, make sure you have Python installed on your system. Python 3.6 or above is recommended. You also need to install the `requests` and `bibtexparser` libraries, which can be installed via pip:
 
 ```bash
-pip install requests bibtexparser
+python -m pip install -r requirements.txt
 ```
 
 ## Installation
