@@ -63,3 +63,7 @@ Please fork the repository and submit pull requests for your proposed changes.
 ## Contact
 
 For questions or support, please contact [yaonangu@u.nus.edu](mailto:your-email@example.com).
+
+---
+
+[![Star History Chart](https://api.star-history.com/svg?repos=ClaireGyn/BibTeXManager&type=Date)](https://star-history.com/#ClaireGyn/BibTeXManager&Date)
